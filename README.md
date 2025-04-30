@@ -36,7 +36,10 @@ Se agregó la entrega en bicicleta bajo la siguiente condición:
 Incluye capturas de pantalla de:
 
 - Formulario principal con un pedido generado.
+- ![image](https://github.com/user-attachments/assets/c5e61319-3649-43ad-a3fb-e203319b8267)
+
 - Formulario de historial de pedidos con el filtro aplicado.
+![image](https://github.com/user-attachments/assets/92c52281-f96e-4f27-b87b-a19d5b5b5889)
 
 ## 📁 Estructura del proyecto
 
