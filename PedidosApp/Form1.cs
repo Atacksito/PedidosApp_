@@ -1,13 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using PedidosApp;
 
 namespace PedidosApp
 {
@@ -24,7 +18,6 @@ namespace PedidosApp
             historialForm.Show();
         }
 
-
         private void btnCalcular_Click(object sender, EventArgs e)
         {
             try
@@ -37,7 +30,7 @@ namespace PedidosApp
                 Pedido pedido = new Pedido(cliente, producto, urgente, peso, distancia);
                 RegistroPedidos.Instancia.AgregarPedido(pedido);
                 lblResultado.Text = $"Entrega: {pedido.MetodoEntrega.TipoEntrega()}\n" +
-                                        $"Costo: ${pedido.ObtenerCosto():0.00}";
+                                    $"Costo: ${pedido.ObtenerCosto():0.00}";
             }
             catch (Exception ex)
             {
