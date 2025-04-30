@@ -14,7 +14,7 @@ namespace PedidosApp
         public HistorialPedidosForm()
         {
             InitializeComponent();
-            pedidos = RegistroPedido.ObtenerPedidos() ?? new List<Pedido>();
+            pedidos = RegistroPedidos.Instancia.Pedidos ?? new List<Pedido>();
             bindingSource = new BindingSource();
 
             comboBoxFiltro.Items.Add("Todos");
@@ -26,6 +26,7 @@ namespace PedidosApp
 
             ActualizarGrid();
         }
+
 
         public static class PedidoService
         {
