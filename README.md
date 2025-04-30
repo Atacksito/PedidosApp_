@@ -40,6 +40,3 @@ Incluye capturas de pantalla de:
 
 - Formulario de historial de pedidos con el filtro aplicado.
 ![image](https://github.com/user-attachments/assets/92c52281-f96e-4f27-b87b-a19d5b5b5889)
-
-## 📁 Estructura del proyecto
-
